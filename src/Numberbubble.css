@@ -1,0 +1,26 @@
+.Numberbubble {
+    border-radius: 50%;
+    background-color: grey;
+    color: white;
+    font-size: large;
+    width: 150px;
+    height: 150px;
+    border: solid;
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Oxygen', sans-serif;
+    margin: 10px;
+}
+
+.text {
+}
+
+.number {
+
+}
+
+hr {
+    width: 100%;
+}

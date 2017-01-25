@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 2s linear;
+  height: 150px;
+}
+
+.App-header {
+  background-color: #444;
+  height: auto;
+  padding: 20px;
+  color: white;
+}
+
+.App-turku {
+  font-size: x-large;
+  padding: 20px;
+  color: white;
+  background-color: #777;
+  
+}
+
+.App-countdown {
+  display: flex;
+  justify-content: center;
+}
+
+.App-aatto {
+  font-size: x-large;
+  padding: 20px;
+  color: white;
+  background-color: #666;
+}
+
+.App-extras {
+  font-size: x-large;
+  padding: 20px;
+  color: white;
+  background-color: #777;
+}
+
+.App-footer {
+  background-color: #444;
+  color: white;
+  padding: 10px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+@keyframes App-logo-spin {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(20deg); }
+  0% { transform: rotate(0deg); }
+}
