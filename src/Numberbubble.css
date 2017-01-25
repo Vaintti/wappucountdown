@@ -5,6 +5,8 @@
     font-size: large;
     width: 150px;
     height: 150px;
+    min-width: 150px;
+    min-height: 150px;
     border: solid;
     border-color: white;
     display: flex;
