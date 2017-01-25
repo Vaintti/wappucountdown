@@ -48,7 +48,7 @@ class App extends Component {
         <div className="App-aatto">
           Wapun aattoon on
           <div className="App-countdown">
-            <Numberbubble name="Päiviä" number={Math.floor(Date.parse(this.state.vappuun)/1000/60/60/24)-18} />
+            <Numberbubble name="Päiviä" number={Math.floor(Date.parse(this.state.vappuun)/1000/60/60/24)} />
             <Numberbubble name="Tunteja" number={this.state.vappuun.getHours()} />
             <Numberbubble name="Minuutteja" number={this.state.vappuun.getMinutes()} />
             <Numberbubble name="Sekuntteja" number={this.state.vappuun.getSeconds()} />
