@@ -59,7 +59,7 @@ class App extends Component {
         </div>
         <div className="App-footer">
         
-          © 2017 Antti Vainikka Some Rights Reserved
+          © 2017 Antti Vainikka Some Rights Reserved (Check me on github <a href="https://github.com/Vaintti">here</a>)
         </div>
         </div>
     );
