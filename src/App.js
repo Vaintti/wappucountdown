@@ -55,7 +55,7 @@ class App extends Component {
           </div>
         </div>
         <div className="App-extras">
-          Wapun aikana voit vaikka kuunnella rakkauden Wappuradiota, joka löytyy tästä linkistä <a href="http://www.wappuradio.fi/">LINKKI</a>
+          Wappua odotellessa voit vaikka katsoa kissaa putkessa tästä <a href="https://youtu.be/DtxEfQn7emI">linkistä</a>
         </div>
         <div className="App-footer">
         
