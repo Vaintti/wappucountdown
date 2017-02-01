@@ -34,10 +34,10 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Koska on wappu?</h2>
+          <h2>Koska on Wappu?</h2>
         </div>
         <div className="App-turku">
-          Aikaa turun teekkariwapun alkuun
+          Aikaa turun Teekkariwapun alkuun
           <div className="App-countdown">
             <Numberbubble name="Päiviä" number={Math.floor(Date.parse(this.state.vappuun)/1000/60/60/24)-18} />
             <Numberbubble name="Tunteja" number={this.state.vappuun.getHours()} />
@@ -46,16 +46,16 @@ class App extends Component {
           </div>
         </div>
         <div className="App-aatto">
-          Wapun aattoon on
+          Wappuaattoon on
           <div className="App-countdown">
             <Numberbubble name="Päiviä" number={Math.floor(Date.parse(this.state.vappuun)/1000/60/60/24)} />
             <Numberbubble name="Tunteja" number={this.state.vappuun.getHours()} />
             <Numberbubble name="Minuutteja" number={this.state.vappuun.getMinutes()} />
-            <Numberbubble name="Sekuntteja" number={this.state.vappuun.getSeconds()} />
+            <Numberbubble name="Sekunteja" number={this.state.vappuun.getSeconds()} />
           </div>
         </div>
         <div className="App-extras">
-          Wapun aikana voi vaikka kuunnella rakkauden wappuradiota joka löytyy tästä linkistä <a href="http://www.wappuradio.fi/">Wappuradio</a>
+          Wapun aikana voi vaikka kuunnella rakkauden Wappuradiota joka löytyy tästä linkistä <a href="http://www.wappuradio.fi/">Wappuradio</a>
         </div>
         <div className="App-footer">
         

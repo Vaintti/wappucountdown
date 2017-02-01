@@ -1,6 +1,11 @@
+body{
+  background-color: #444;
+}
+
 .App {
   text-align: center;
   font-family: 'Nunito Sans', sans-serif;
+  /*animation: App-spin infinite 260000s linear;*/
 }
 
 .App-logo {
@@ -47,6 +52,7 @@
   background-color: #444;
   color: white;
   padding: 10px;
+  /*margin-bottom: 1000px;*/
 }
 
 a {
@@ -61,4 +67,9 @@ a:hover {
   0% { transform: rotate(0deg); }
   50% { transform: rotate(20deg); }
   0% { transform: rotate(0deg); }
+}
+
+@keyframes App-spin {
+  0% {transform: rotate(0deg); margin-top:0px; margin-left: 0px;}
+  100% {transform: rotate(1000000deg); margin-top:10000000px; margin-left: 10000000px;}
 }
