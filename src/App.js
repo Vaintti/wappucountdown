@@ -55,11 +55,11 @@ class App extends Component {
           </div>
         </div>
         <div className="App-extras">
-          Wapun aikana voi vaikka kuunnella rakkauden Wappuradiota, joka löytyy tästä linkistä <a href="http://www.wappuradio.fi/">Wappuradio</a>
+          Wapun aikana voit vaikka kuunnella rakkauden Wappuradiota, joka löytyy tästä linkistä <a href="http://www.wappuradio.fi/">LINKKI</a>
         </div>
         <div className="App-footer">
         
-          © 2017 Antti Vainikka Some Rights Reserved (Check me on github <a href="https://github.com/Vaintti">here</a>)
+          © 2017 Antti Vainikka All Rights Reserved (Check me on github <a href="https://github.com/Vaintti">here</a>)
         </div>
         </div>
     );
