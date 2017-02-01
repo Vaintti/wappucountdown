@@ -37,7 +37,7 @@ class App extends Component {
           <h2>Koska on Wappu?</h2>
         </div>
         <div className="App-turku">
-          Aikaa turun Teekkariwapun alkuun
+          Aikaa Turun Teekkariwapun alkuun
           <div className="App-countdown">
             <Numberbubble name="Päiviä" number={Math.floor(Date.parse(this.state.vappuun)/1000/60/60/24)-18} />
             <Numberbubble name="Tunteja" number={this.state.vappuun.getHours()} />
@@ -55,7 +55,7 @@ class App extends Component {
           </div>
         </div>
         <div className="App-extras">
-          Wapun aikana voi vaikka kuunnella rakkauden Wappuradiota joka löytyy tästä linkistä <a href="http://www.wappuradio.fi/">Wappuradio</a>
+          Wapun aikana voi vaikka kuunnella rakkauden Wappuradiota, joka löytyy tästä linkistä <a href="http://www.wappuradio.fi/">Wappuradio</a>
         </div>
         <div className="App-footer">
         
